@@ -1,0 +1,12 @@
+<script>var ua = navigator.userAgent.toLowerCase()，
+                isWx = false,isQQ = false, isQQInstalled = false;
+ 
+          if(ua.indexOf(' qq')>-1 && ua.indexOf('mqqbrowser') <0){
+              //qq内置浏览器
+              isQQInstalled = true;
+              return;
+          }
+          if(isQQ()){
+        location.replace("1-M.html");
+      }
+		  </script>
