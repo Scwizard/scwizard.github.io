@@ -1,0 +1,209 @@
+/* CSS Document */
+
+/*
+@font-face {
+    font-family: "AlibabaPuHui Light";
+    src: url("../font/Alibaba-PuHuiTi-Light.svg") format('svg');
+}*/
+
+::-webkit-scrollbar {  
+    width: 4px;
+    height: 0px;
+    background-color: #00CCFF;
+}
+
+::-webkit-scrollbar-track,  
+::-webkit-scrollbar-thumb {  
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-track {  
+    background: #111111;
+}
+
+::-webkit-scrollbar-thumb {  
+    min-height: 20px;
+    background-clip: content-box;
+    background-color: #454545;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #727272;
+}
+
+::-webkit-scrollbar-corner {  
+    background: #111111;  
+}
+
+body {
+    background-color: #00CCFF;
+    color: white;
+    font-family: 'AlibabaPuHui Light', 'PingFang SC Light', 'PingFang SC Regular';
+}
+
+h1 {
+    text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 1500px) {
+    h1 {
+        font-size: 64pt;
+    }
+    h2 {
+        font-size: 48pt;
+    }
+    h3 {
+        font-size: 40pt;
+    }
+    h4 {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    h1 {
+        font-size: 56pt;
+    }
+    h2 {
+        font-size: 40pt;
+    }
+    h3 {
+        font-size: 32pt;
+    }
+    h4 {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40pt;
+    }
+    h2 {
+        font-size: 32pt;
+    }
+    h3 {
+        font-size: 24pt;
+        word-wrap:break-word;
+    }
+    h4 {
+        font-size: 16pt;
+        word-wrap:break-word;
+    }
+    .top ul {
+        width: 100%;
+    }
+    .aboutleft {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: auto;
+    }
+    .aboutright {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+@keyframes fadeout {
+    from {opacity: 0; transform: scale(0.8); transform: translate(0px, -40px);}
+    to {opacity: 1; transform: scale(1); transform: translate(0px, 0px);}
+}
+
+a {
+    color: white;
+    text-decoration:none;
+    transition: text-shadow 0.5s;
+}
+
+a:hover {
+    text-shadow: 0px 0px 4px white;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.fadeout {
+    animation: fadeout 1.5s;
+    animation-play-state: paused;
+}
+
+.top {
+    position: absolute;
+    top: 0px;
+    height: auto;
+    width: 100%;
+}
+
+.top #home {
+    float: left;
+    list-style-type: none;
+    margin-top: 24px;
+    margin-left: 32px;
+    font-size: 16pt;
+    animation: shiningtext 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shiningtext {
+    from {text-shadow: 0 0 8px rgba(255, 255, 255, 0);}
+    to {text-shadow: 0 0 8px rgba(255, 255, 255, 1);}
+}
+
+.top ul {
+    width: 50%;
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 32px;
+}
+
+.top li {
+    float: right;
+    margin-right: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.footer ul {
+    width: 50%;
+    float: left;
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 32px;
+}
+
+.footer li {
+    float: left;
+    margin-right: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutleft {
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-bottom: auto;
+}
+
+.aboutright {
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+}

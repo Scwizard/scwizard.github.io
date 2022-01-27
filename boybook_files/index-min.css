@@ -1,0 +1,78 @@
+/* CSS Document */
+
+@media screen and (max-width: 600px) {
+
+#welcome {
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    height: 400px;
+}
+
+#welcome h1 {
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+
+#banners {
+    width: 100%;
+}
+
+.bannertitle {
+    position: absolute;
+    top: 1050px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bannertitle h2 {
+    margin-top: -32px;
+    margin-bottom: 0px;
+}
+
+.bannerimg {
+    margin-top: 500px;
+    margin-left: 0;
+    width: 100%;
+    height: 500px;
+    border-radius: 8px 0px 0px 8px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.2);
+}
+
+#banner_bedwars {
+    background-image: url("../images/banner_bedwars.png");
+}
+
+#aboutme {
+    margin-top: 240px;
+    margin-bottom: 104px;
+}
+
+#aboutme p {
+    font-size: 32px;
+}
+
+#minecraft img {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+}
+
+#minecraft p {
+    font-size: 32px;
+    margin-top: 104px;
+    margin-bottom: 104px;
+}
+
+#contact {
+    margin-top: 160px;
+    margin-bottom: 104px;
+}
+
+#contact h4 {
+    margin-bottom: -24px;
+}
+}

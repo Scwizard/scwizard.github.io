@@ -1,0 +1,81 @@
+/* CSS Document */
+
+#myworks {
+    margin-top: 104px;
+    margin-bottom: 104px;
+}
+
+.worksentry {
+    padding-top: 104px;
+    padding-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.workleftimg {
+    border-radius: 8px;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.2);
+    width: 60%;
+}
+
+.workrightimg {
+    border-radius: 8px;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.2);
+    width: 60%;
+}
+
+.worklefttext {
+    display: inline-block;
+    padding-left: 80px;
+    width: 30%;
+    text-align: left;
+}
+
+.workrighttext {
+    display: inline-block;
+    padding-right: 80px;
+    width: 30%;
+    text-align: right;
+}
+
+@media screen and (max-width: 1000px) {
+
+#myworks {
+    margin-top: 160px;
+    margin-bottom: 104px;
+}
+
+.worksentry {
+    padding-top: 104px;
+    padding-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.workleftimg {
+    border-radius: 8px;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.workrightimg {
+    border-radius: 8px;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.worklefttext {
+    display: inline-block;
+    padding-left: 5%;
+    width: 90%;
+    text-align: left;
+}
+
+.workrighttext {
+    display: inline-block;
+    padding-right: 5%;
+    width: 90%;
+    text-align: right;
+}
+
+}
